@@ -8,17 +8,24 @@ export interface IPage {
 }
 export function App() {
   const [page, setPage] = useState(1)
-  console.log(page)
+  let component
+  switch (page) {
+    case 1:
+      component = <PageHome />
+      break;
+    case 2:
+      component = <PageList />
+      break;
+    default:
+      component = <PageHome />
+      break;
+  }
   return (
     <>
       <GlobalStyle />
       <ComponentHeader setPage={setPage} />
       <Main>
-        {page == 1 ? (
-          <PageHome />
-        ) : (
-          <PageList />
-        )}
+        {component}
       </Main>
       <ComponentFooter />
     </>
