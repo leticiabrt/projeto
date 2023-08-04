@@ -18,7 +18,3 @@ export const colors = {
   black: "#000",
   white: "#fff"
 }
-
-export const Main = styled.main`
-  min-height: calc(100vh - 9rem);
-`
