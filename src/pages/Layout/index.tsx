@@ -1,6 +1,6 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
-import { ComponentHeader, ComponentFooter } from "../../components"
+import { ComponentHeader } from "../../components"
 import * as S from "./styles"
 
 export function Layout() {
@@ -10,7 +10,6 @@ export function Layout() {
       <S.Main>
         <Outlet />
       </S.Main>
-      <ComponentFooter />
     </>
   )
 }
