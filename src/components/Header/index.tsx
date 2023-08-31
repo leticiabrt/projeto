@@ -18,7 +18,7 @@ export function Header() {
             <a href="/perfil">Meu Perfil</a>
           </li>
           <li>
-            <a href="/cadastrar">Cadastrar</a>
+            <a href="/cadastro">Cadastrar</a>
           </li>
           <li>
             <a href="/checkin">Checkin</a>

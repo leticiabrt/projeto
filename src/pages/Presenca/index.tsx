@@ -1,6 +1,6 @@
 import * as S from './styles'
 
-export function Home() {
+export function Presenca() {
   return (
     <S.Section>
     <p>
