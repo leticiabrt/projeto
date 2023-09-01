@@ -1,17 +1,35 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 1rem;
-  @media (max-width: 1010px) {
-    grid-template-columns: auto auto auto;
+  section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 25px;
+    background-color: #9DF1E7;
   }
-  @media (max-width: 768px) {
-    grid-template-columns: auto auto;
-    font-size: 0.9rem;
+
+  h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin: 10rem;
+    text-align: justify;
   }
-  @media (max-width: 500px) {
-    grid-template-columns: auto;
+
+  ol{
+    margin-top: 7rem;
   }
+
+  img{
+    width: 5rem;
+  }
+
+  h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+  }
+
+
 `
