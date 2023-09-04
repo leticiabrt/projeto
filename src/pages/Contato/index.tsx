@@ -5,7 +5,9 @@ import whats from '../../assets/whats.webp'
 export function List() {
   return (
     <S.Section>
+      
       <section id="topo">
+        <h1>Dúvidas Frequentes</h1>
         <ol>
           <li>
             <a href="#resp1">Tem idade mínima e máxima?</a>

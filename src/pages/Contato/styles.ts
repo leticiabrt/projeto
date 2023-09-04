@@ -10,15 +10,20 @@ export const Section = styled.section`
     background-color: #9DF1E7;
   }
 
+  h1{
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    margin-top: 8rem;
+  }
+
   h3{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    margin: 10rem;
+    margin: 3rem;
+    font-size: 30px;
     text-align: justify;
   }
 
   ol{
-    margin-top: 7rem;
+    margin-top: 2rem;
   }
 
   img{
