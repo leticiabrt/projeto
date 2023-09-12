@@ -1,5 +1,4 @@
 import * as S from "./styles"
-import menu from "../../assets/menu.png"
 
 export function Header() {
   return (
@@ -22,6 +21,9 @@ export function Header() {
           </li>
           <li>
             <a href="/checkin">Checkin</a>
+          </li>
+          <li>
+            <a href="/treinos">Treinos CEFET-MG</a>
           </li>
         </ul>
       </S.NavBar>

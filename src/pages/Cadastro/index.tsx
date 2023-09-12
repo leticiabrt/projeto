@@ -15,7 +15,7 @@ export function Cadastro() {
             <label htmlFor="dtNasc">Data de Nascimento</label><br />
             <input type="date" name="dtNasc"/><br />
 
-            <label for="quantity">CPF:</label><br />
+            <label htmlFor="quantity">CPF:</label><br />
             <input type="number" id="cpf" name="cpf"></input> <br />
 
             <label htmlFor="email">Email:</label><br />

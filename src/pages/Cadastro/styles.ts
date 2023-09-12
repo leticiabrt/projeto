@@ -1,11 +1,10 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  background-color: #9DF1E7;
+  background-color: #F6EABB;
   position: absolute;
   width: 100%;
   height: 100%;
-  margin-top: 5rem;
   font-size: large;
 
   display: flex;
@@ -34,13 +33,14 @@ export const Section = styled.section`
   }
 
   button{
-    background-color: #D49EFF;
+    background-color: #FFDE59;
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
+    border: 0.2rem solid #D4B531;
     margin: 0.5rem;
     font-size: large;
-    color: white;
+    color: black;
   }
 
   input{

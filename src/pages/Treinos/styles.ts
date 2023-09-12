@@ -20,16 +20,23 @@ export const Section = styled.section`
     font-size: 30px;
   }
 
+  h1{
+    margin-top: 3rem;
+    font-family: 'Lalezar', cursive;
+    text-align: left;
+    font-size: 30px;
+  }
+
   img{
     width: 70%;
   }
 
   table tr th, table tr td{
     border: 0.1rem solid ;
-    padding: 0.45rem;
+    padding: 1rem;
     text-align: center;
     background-color: #FFF09F;
-    margin: 5em;
+    margin: 5rem;
 }
 
 table {
@@ -37,7 +44,7 @@ table {
 }
 
 .tabela-com-rolagem {
-  width: 36rem; /* Largura do elemento de rolagem */
+  width: 50rem; /* Largura do elemento de rolagem */
   height: 30rem; /* Altura do elemento de rolagem */
   overflow: auto; /* Ativa a rolagem quando o conteúdo da tabela exceder a altura definida */
 }

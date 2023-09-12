@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { PageHome, PageContato, PageLayout, PagePresenca, PageCadastro, PageCheckin } from "../pages"
+import { PageHome, PageContato, PageLayout, PagePresenca, PageCadastro, PageCheckin, PagePerfil, PageTreinos } from "../pages"
 
 export function RouteSoftware() {
   return (
@@ -10,6 +10,8 @@ export function RouteSoftware() {
         <Route path="/presenca" element={<PagePresenca />}></Route>
         <Route path="/cadastro" element={<PageCadastro />}></Route>
         <Route path="/checkin" element={<PageCheckin />}></Route>
+        <Route path="/perfil" element={<PagePerfil />}></Route>
+        <Route path="/treinos" element={<PageTreinos />}></Route>
       </Route>
     </Routes>
   )

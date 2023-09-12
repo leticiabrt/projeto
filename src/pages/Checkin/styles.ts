@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
-  background-color: #9DF1E7;
-  position: absolute;
+  background-color: #F6EABB;
+  min-height: calc(100vh - 9rem);
   width: 100%;
   height: 100%;
   font-size: large;
@@ -20,12 +20,16 @@ export const Section = styled.section`
     font-size: 30px;
   }
 
+  img{
+    width: 70%;
+  }
+
   table tr th, table tr td{
     border: 0.1rem solid ;
-    padding: 0.45rem;
+    padding: 1rem;
     text-align: center;
-    background-color: #9DE2F1;
-    margin: 5em;
+    background-color: #FFF09F;
+    margin: 5rem;
 }
 
 table {
@@ -33,7 +37,7 @@ table {
 }
 
 .tabela-com-rolagem {
-  width: 36rem; /* Largura do elemento de rolagem */
+  width: 29rem; /* Largura do elemento de rolagem */
   height: 30rem; /* Altura do elemento de rolagem */
   overflow: auto; /* Ativa a rolagem quando o conteúdo da tabela exceder a altura definida */
 }
